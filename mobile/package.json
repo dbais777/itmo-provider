@@ -1,0 +1,40 @@
+{
+  "name": "Timetable",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "ios": "npm run build && npx cap run ios --target DC0592FF-8DC8-4386-94BE-D0C23C102930",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^4.8.1",
+    "@capacitor/browser": "^4.1.1",
+    "@capacitor/cli": "^4.7.0",
+    "@capacitor/core": "^5.4.2",
+    "@capacitor/ios": "^4.7.0",
+    "@capacitor/status-bar": "^4.1.1",
+    "@meforma/vue-toaster": "^1.3.0",
+    "@vueuse/core": "^9.13.0",
+    "axios": "^1.3.4",
+    "capacitor-plugin-safe-area": "^1.0.1",
+    "cordova-plugin-screen-orientation": "^3.0.3",
+    "cupertino-pane": "^1.3.2",
+    "moment": "^2.29.4",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.0.33",
+    "register-service-worker": "^1.7.2",
+    "viewerjs": "^1.11.6",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "xwiper": "^2.2.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "sass": "^1.58.3",
+    "vite": "^4.1.3"
+  }
+}

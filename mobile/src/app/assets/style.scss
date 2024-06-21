@@ -1,0 +1,42 @@
+@import url('./fonts/fonts.scss');
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+body {}
+
+:root {
+    font-size: 1px;
+    --primary-color: #185ee0;
+    --secondary-color: #e6eef9;
+}
+
+
+.c-toast-container {
+    margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+
+body {
+    background: #1D1D1D;
+    font-family: 'sf';
+    color: #BDBDBD;
+    font-size: 16px;
+    overflow: hidden;
+
+}

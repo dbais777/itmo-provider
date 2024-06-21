@@ -1,0 +1,6 @@
+{
+  "appId": "ru.herzentimetable",
+  "appName": "Расписание РГПУ",
+  "webDir": "dist",
+  "backgroundColor": "#262626"
+}
